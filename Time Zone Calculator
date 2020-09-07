@@ -2,15 +2,6 @@ print("Continental US Time Zone Calculator (Pacific Users Only)")  #This is the 
 print("Currently supported time zone inputs: Eastern, Central, Mountain")  #Shows the user a list of time zones they can use.
 
 time_zone = input("Please choose your time zone (as listed above)") #
-if time_zone == "Eastern":
-    pass
-if time_zone == "Central":
-    pass
-if time_zone == "Mountain":
-    pass
-else:
-    print("input error, please choose from listed time zones.")
-    exit()
 hours = int(input("What is the current hour?"))  #User is first asked for their current hour of their time. Since I will be doing operations on this, I converted it to an integer.
 minutes = input("What is the current minutes?")  #User is then asked for the current minutes.
 
